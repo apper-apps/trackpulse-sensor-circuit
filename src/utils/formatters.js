@@ -45,3 +45,33 @@ export const calculateGrowth = (current, previous) => {
   if (previous === 0) return 0
   return ((current - previous) / previous) * 100
 }
+
+export const formatDeviceType = (device) => {
+  const deviceNames = {
+    desktop: 'Desktop',
+    mobile: 'Mobile',
+    tablet: 'Tablet',
+    smart_tv: 'Smart TV',
+    wearable: 'Wearable',
+    unknown: 'Unknown'
+  }
+  return deviceNames[device] || 'Unknown Device'
+}
+
+export const formatDuration = (startTime, endTime) => {
+  const start = new Date(startTime)
+  const end = new Date(endTime)
+  const diffMs = end - start
+  
+  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24))
+  const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+  const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60))
+  
+  if (days > 0) {
+    return `${days}d ${hours}h`
+  } else if (hours > 0) {
+    return `${hours}h ${minutes}m`
+  } else {
+    return `${minutes}m`
+  }
+}

@@ -5,27 +5,30 @@
     "revenue": 450,
     "customerId": "CUST001",
     "attributedChannel": "Google Ads",
-    "touchpoints": [
+"touchpoints": [
       {
         "channelId": 1,
         "campaignId": 1,
         "timestamp": "2024-01-14T10:15:00Z",
         "interaction": "click",
-        "weight": 0.3
+        "weight": 0.3,
+        "device": "mobile"
       },
       {
         "channelId": 6,
         "campaignId": 6,
         "timestamp": "2024-01-14T18:45:00Z",
         "interaction": "email_open",
-        "weight": 0.2
+        "weight": 0.2,
+        "device": "desktop"
       },
       {
         "channelId": 1,
         "campaignId": 1,
         "timestamp": "2024-01-15T14:20:00Z",
         "interaction": "click",
-        "weight": 0.5
+        "weight": 0.5,
+        "device": "desktop"
       }
     ]
   },
@@ -35,20 +38,22 @@
     "revenue": 280,
     "customerId": "CUST002",
     "attributedChannel": "Facebook Ads",
-    "touchpoints": [
+"touchpoints": [
       {
         "channelId": 2,
         "campaignId": 2,
         "timestamp": "2024-01-13T12:30:00Z",
         "interaction": "impression",
-        "weight": 0.2
+        "weight": 0.2,
+        "device": "mobile"
       },
       {
         "channelId": 2,
         "campaignId": 7,
         "timestamp": "2024-01-15T16:30:00Z",
         "interaction": "click",
-        "weight": 0.8
+        "weight": 0.8,
+        "device": "tablet"
       }
     ]
   },
@@ -58,27 +63,30 @@
     "revenue": 850,
     "customerId": "CUST003",
     "attributedChannel": "LinkedIn Ads",
-    "touchpoints": [
+"touchpoints": [
       {
         "channelId": 4,
         "campaignId": 4,
         "timestamp": "2024-01-10T11:00:00Z",
         "interaction": "click",
-        "weight": 0.4
+        "weight": 0.4,
+        "device": "desktop"
       },
       {
         "channelId": 6,
         "campaignId": 6,
         "timestamp": "2024-01-12T09:15:00Z",
         "interaction": "email_click",
-        "weight": 0.3
+        "weight": 0.3,
+        "device": "mobile"
       },
       {
         "channelId": 4,
         "campaignId": 4,
         "timestamp": "2024-01-15T09:10:00Z",
         "interaction": "click",
-        "weight": 0.3
+        "weight": 0.3,
+        "device": "desktop"
       }
     ]
   },

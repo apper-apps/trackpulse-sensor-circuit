@@ -17,11 +17,17 @@ const Sidebar = ({ isOpen, onClose }) => {
       icon: 'Target',
       description: 'Campaign management'
     },
-    {
+{
       name: 'Attribution',
       href: '/attribution',
       icon: 'GitBranch',
       description: 'Attribution models'
+    },
+    {
+      name: 'Cross-Device',
+      href: '/cross-device',
+      icon: 'Smartphone',
+      description: 'Device journey tracking'
     },
     {
       name: 'Reports',

@@ -7,7 +7,7 @@ const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
   
-  const getPageTitle = () => {
+const getPageTitle = () => {
     switch (location.pathname) {
       case '/':
         return 'Dashboard'
@@ -15,6 +15,8 @@ const Layout = () => {
         return 'Campaigns'
       case '/attribution':
         return 'Attribution'
+      case '/cross-device':
+        return 'Cross-Device Tracking'
       case '/reports':
         return 'Reports'
       case '/settings':
@@ -24,7 +26,7 @@ const Layout = () => {
     }
   }
   
-  const getPageSubtitle = () => {
+const getPageSubtitle = () => {
     switch (location.pathname) {
       case '/':
         return 'Track your marketing performance and attribution'
@@ -32,6 +34,8 @@ const Layout = () => {
         return 'Manage and optimize your marketing campaigns'
       case '/attribution':
         return 'Analyze conversion paths and attribution models'
+      case '/cross-device':
+        return 'Visualize customer journeys across multiple devices'
       case '/reports':
         return 'Generate and schedule marketing reports'
       case '/settings':
@@ -51,11 +55,11 @@ const Layout = () => {
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header 
           title={getPageTitle()}
+title={getPageTitle()}
           subtitle={getPageSubtitle()}
           onMenuToggle={() => setSidebarOpen(true)}
-          showDatePicker={location.pathname === '/' || location.pathname === '/campaigns'}
+          showDatePicker={location.pathname === '/' || location.pathname === '/campaigns' || location.pathname === '/cross-device'}
         />
-        
         <main className="flex-1 overflow-y-auto">
           <div className="container mx-auto px-4 sm:px-6 py-6">
             <Outlet />
