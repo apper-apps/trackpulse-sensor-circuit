@@ -1,0 +1,497 @@
+[
+  {
+    "Id": 1,
+    "timestamp": "2024-01-15T14:30:00Z",
+    "revenue": 450,
+    "customerId": "CUST001",
+    "attributedChannel": "Google Ads",
+    "touchpoints": [
+      {
+        "channelId": 1,
+        "campaignId": 1,
+        "timestamp": "2024-01-14T10:15:00Z",
+        "interaction": "click",
+        "weight": 0.3
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-14T18:45:00Z",
+        "interaction": "email_open",
+        "weight": 0.2
+      },
+      {
+        "channelId": 1,
+        "campaignId": 1,
+        "timestamp": "2024-01-15T14:20:00Z",
+        "interaction": "click",
+        "weight": 0.5
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "timestamp": "2024-01-15T16:45:00Z",
+    "revenue": 280,
+    "customerId": "CUST002",
+    "attributedChannel": "Facebook Ads",
+    "touchpoints": [
+      {
+        "channelId": 2,
+        "campaignId": 2,
+        "timestamp": "2024-01-13T12:30:00Z",
+        "interaction": "impression",
+        "weight": 0.2
+      },
+      {
+        "channelId": 2,
+        "campaignId": 7,
+        "timestamp": "2024-01-15T16:30:00Z",
+        "interaction": "click",
+        "weight": 0.8
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "timestamp": "2024-01-15T09:20:00Z",
+    "revenue": 850,
+    "customerId": "CUST003",
+    "attributedChannel": "LinkedIn Ads",
+    "touchpoints": [
+      {
+        "channelId": 4,
+        "campaignId": 4,
+        "timestamp": "2024-01-10T11:00:00Z",
+        "interaction": "click",
+        "weight": 0.4
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-12T09:15:00Z",
+        "interaction": "email_click",
+        "weight": 0.3
+      },
+      {
+        "channelId": 4,
+        "campaignId": 4,
+        "timestamp": "2024-01-15T09:10:00Z",
+        "interaction": "click",
+        "weight": 0.3
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "timestamp": "2024-01-14T20:15:00Z",
+    "revenue": 320,
+    "customerId": "CUST004",
+    "attributedChannel": "Email Marketing",
+    "touchpoints": [
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-14T08:00:00Z",
+        "interaction": "email_open",
+        "weight": 0.3
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-14T20:10:00Z",
+        "interaction": "email_click",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "timestamp": "2024-01-14T13:40:00Z",
+    "revenue": 690,
+    "customerId": "CUST005",
+    "attributedChannel": "Instagram Ads",
+    "touchpoints": [
+      {
+        "channelId": 3,
+        "campaignId": 3,
+        "timestamp": "2024-01-12T15:30:00Z",
+        "interaction": "impression",
+        "weight": 0.15
+      },
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-13T10:20:00Z",
+        "interaction": "organic_search",
+        "weight": 0.25
+      },
+      {
+        "channelId": 3,
+        "campaignId": 3,
+        "timestamp": "2024-01-14T13:25:00Z",
+        "interaction": "click",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "timestamp": "2024-01-13T11:25:00Z",
+    "revenue": 125,
+    "customerId": "CUST006",
+    "attributedChannel": "YouTube Ads",
+    "touchpoints": [
+      {
+        "channelId": 5,
+        "campaignId": 5,
+        "timestamp": "2024-01-13T11:20:00Z",
+        "interaction": "video_view",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "timestamp": "2024-01-13T17:50:00Z",
+    "revenue": 420,
+    "customerId": "CUST007",
+    "attributedChannel": "Organic Search",
+    "touchpoints": [
+      {
+        "channelId": 1,
+        "campaignId": 1,
+        "timestamp": "2024-01-11T14:15:00Z",
+        "interaction": "impression",
+        "weight": 0.2
+      },
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-12T16:30:00Z",
+        "interaction": "organic_search",
+        "weight": 0.3
+      },
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-13T17:45:00Z",
+        "interaction": "organic_search",
+        "weight": 0.5
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "timestamp": "2024-01-12T14:30:00Z",
+    "revenue": 750,
+    "customerId": "CUST008",
+    "attributedChannel": "Direct Traffic",
+    "touchpoints": [
+      {
+        "channelId": 2,
+        "campaignId": 2,
+        "timestamp": "2024-01-09T12:00:00Z",
+        "interaction": "impression",
+        "weight": 0.1
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-10T08:30:00Z",
+        "interaction": "email_open",
+        "weight": 0.2
+      },
+      {
+        "channelId": 8,
+        "campaignId": null,
+        "timestamp": "2024-01-12T14:25:00Z",
+        "interaction": "direct_visit",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "timestamp": "2024-01-12T10:15:00Z",
+    "revenue": 95,
+    "customerId": "CUST009",
+    "attributedChannel": "Instagram Ads",
+    "touchpoints": [
+      {
+        "channelId": 3,
+        "campaignId": 9,
+        "timestamp": "2024-01-12T10:10:00Z",
+        "interaction": "app_install",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "timestamp": "2024-01-11T16:40:00Z",
+    "revenue": 380,
+    "customerId": "CUST010",
+    "attributedChannel": "Google Ads",
+    "touchpoints": [
+      {
+        "channelId": 1,
+        "campaignId": 8,
+        "timestamp": "2024-01-10T13:20:00Z",
+        "interaction": "impression",
+        "weight": 0.3
+      },
+      {
+        "channelId": 1,
+        "campaignId": 8,
+        "timestamp": "2024-01-11T16:35:00Z",
+        "interaction": "click",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "timestamp": "2024-01-11T12:20:00Z",
+    "revenue": 520,
+    "customerId": "CUST011",
+    "attributedChannel": "Facebook Ads",
+    "touchpoints": [
+      {
+        "channelId": 2,
+        "campaignId": 7,
+        "timestamp": "2024-01-09T15:45:00Z",
+        "interaction": "impression",
+        "weight": 0.25
+      },
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-10T11:30:00Z",
+        "interaction": "organic_search",
+        "weight": 0.25
+      },
+      {
+        "channelId": 2,
+        "campaignId": 7,
+        "timestamp": "2024-01-11T12:15:00Z",
+        "interaction": "click",
+        "weight": 0.5
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "timestamp": "2024-01-10T19:30:00Z",
+    "revenue": 180,
+    "customerId": "CUST012",
+    "attributedChannel": "Email Marketing",
+    "touchpoints": [
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-10T07:00:00Z",
+        "interaction": "email_open",
+        "weight": 0.4
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-10T19:25:00Z",
+        "interaction": "email_click",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "timestamp": "2024-01-10T14:45:00Z",
+    "revenue": 650,
+    "customerId": "CUST013",
+    "attributedChannel": "LinkedIn Ads",
+    "touchpoints": [
+      {
+        "channelId": 4,
+        "campaignId": 4,
+        "timestamp": "2024-01-08T10:30:00Z",
+        "interaction": "impression",
+        "weight": 0.2
+      },
+      {
+        "channelId": 4,
+        "campaignId": 4,
+        "timestamp": "2024-01-09T14:15:00Z",
+        "interaction": "click",
+        "weight": 0.3
+      },
+      {
+        "channelId": 4,
+        "campaignId": 4,
+        "timestamp": "2024-01-10T14:40:00Z",
+        "interaction": "form_submit",
+        "weight": 0.5
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "timestamp": "2024-01-09T13:15:00Z",
+    "revenue": 290,
+    "customerId": "CUST014",
+    "attributedChannel": "YouTube Ads",
+    "touchpoints": [
+      {
+        "channelId": 5,
+        "campaignId": 5,
+        "timestamp": "2024-01-08T16:20:00Z",
+        "interaction": "video_view",
+        "weight": 0.4
+      },
+      {
+        "channelId": 5,
+        "campaignId": 5,
+        "timestamp": "2024-01-09T13:10:00Z",
+        "interaction": "click",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "timestamp": "2024-01-09T08:20:00Z",
+    "revenue": 110,
+    "customerId": "CUST015",
+    "attributedChannel": "Instagram Ads",
+    "touchpoints": [
+      {
+        "channelId": 3,
+        "campaignId": 9,
+        "timestamp": "2024-01-09T08:15:00Z",
+        "interaction": "app_install",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "timestamp": "2024-01-08T21:40:00Z",
+    "revenue": 480,
+    "customerId": "CUST016",
+    "attributedChannel": "Direct Traffic",
+    "touchpoints": [
+      {
+        "channelId": 1,
+        "campaignId": 1,
+        "timestamp": "2024-01-06T14:30:00Z",
+        "interaction": "impression",
+        "weight": 0.15
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-07T09:15:00Z",
+        "interaction": "email_open",
+        "weight": 0.25
+      },
+      {
+        "channelId": 8,
+        "campaignId": null,
+        "timestamp": "2024-01-08T21:35:00Z",
+        "interaction": "direct_visit",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "timestamp": "2024-01-08T15:50:00Z",
+    "revenue": 720,
+    "customerId": "CUST017",
+    "attributedChannel": "Organic Search",
+    "touchpoints": [
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-07T11:20:00Z",
+        "interaction": "organic_search",
+        "weight": 0.4
+      },
+      {
+        "channelId": 7,
+        "campaignId": null,
+        "timestamp": "2024-01-08T15:45:00Z",
+        "interaction": "organic_search",
+        "weight": 0.6
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "timestamp": "2024-01-07T12:30:00Z",
+    "revenue": 340,
+    "customerId": "CUST018",
+    "attributedChannel": "Google Ads",
+    "touchpoints": [
+      {
+        "channelId": 1,
+        "campaignId": 10,
+        "timestamp": "2024-01-07T12:25:00Z",
+        "interaction": "click",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "timestamp": "2024-01-07T17:20:00Z",
+    "revenue": 150,
+    "customerId": "CUST019",
+    "attributedChannel": "Email Marketing",
+    "touchpoints": [
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-07T08:00:00Z",
+        "interaction": "email_open",
+        "weight": 0.3
+      },
+      {
+        "channelId": 6,
+        "campaignId": 6,
+        "timestamp": "2024-01-07T17:15:00Z",
+        "interaction": "email_click",
+        "weight": 0.7
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "timestamp": "2024-01-06T14:10:00Z",
+    "revenue": 590,
+    "customerId": "CUST020",
+    "attributedChannel": "Facebook Ads",
+    "touchpoints": [
+      {
+        "channelId": 2,
+        "campaignId": 2,
+        "timestamp": "2024-01-05T10:45:00Z",
+        "interaction": "impression",
+        "weight": 0.2
+      },
+      {
+        "channelId": 2,
+        "campaignId": 7,
+        "timestamp": "2024-01-06T09:30:00Z",
+        "interaction": "impression",
+        "weight": 0.3
+      },
+      {
+        "channelId": 2,
+        "campaignId": 7,
+        "timestamp": "2024-01-06T14:05:00Z",
+        "interaction": "click",
+        "weight": 0.5
+      }
+    ]
+  }
+]
