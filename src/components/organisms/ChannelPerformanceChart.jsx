@@ -71,9 +71,9 @@ const ChannelPerformanceChart = () => {
           fontSize: '12px',
           colors: '#475569'
         }
-      }
+}
     },
-    colors: ['#7C3AED'],
+    colors: ['#10B981'],
     grid: {
       borderColor: '#E2E8F0',
       strokeDashArray: 3

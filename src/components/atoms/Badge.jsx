@@ -8,9 +8,9 @@ const Badge = ({
 }) => {
   const baseClasses = 'inline-flex items-center font-medium font-body rounded-full'
   
-  const variants = {
+const variants = {
     default: 'bg-slate-100 text-slate-800',
-    primary: 'bg-gradient-to-r from-primary-100 to-primary-200 text-primary-800',
+    primary: 'bg-gradient-to-r from-emerald-100 to-emerald-200 text-emerald-800',
     success: 'bg-gradient-to-r from-emerald-100 to-emerald-200 text-emerald-800',
     warning: 'bg-gradient-to-r from-yellow-100 to-yellow-200 text-yellow-800',
     danger: 'bg-gradient-to-r from-red-100 to-red-200 text-red-800',

@@ -107,9 +107,9 @@ const ConversionTrendChart = () => {
           fontSize: '12px',
           colors: '#475569'
         }
-      }
+}
     }],
-    colors: ['#10B981', '#7C3AED'],
+    colors: ['#10B981', '#10B981'],
     grid: {
       borderColor: '#E2E8F0',
       strokeDashArray: 3
